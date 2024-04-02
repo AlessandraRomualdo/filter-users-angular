@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.left-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rosybrown;
+}
+
+.top-div {
+  flex-grow: 1;
+  background-color: blue;
+}
+
+.main-left-div {
+  height: 80%;
+  background-color: brown;
+}
+
+.right-div {
+  width: 30%;
+  max-height: 100vh;
+  background-color: aquamarine;
+}  
